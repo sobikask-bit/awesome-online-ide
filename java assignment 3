@@ -1,0 +1,21 @@
+import java.util.*;
+import java.io.*;
+  
+class Main {
+  
+    public static void main(String[] args)
+    {
+        HashSet<String> m = new HashSet<String>();
+        m.add("01");
+        m.add("02");
+        m.add("03");
+        System.out.println("HashSet elements : " + m);
+        m.add("04");
+        System.out.println("append  element");
+        System.out.println("HashSet elements : " + m);
+        System.out.println("The size of the set is: " + m.size());
+        m.clear();
+        System.out.println("HashSet elements withou any elements : " + m);
+        
+    }
+}
